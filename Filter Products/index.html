@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Filter</title>
+  </head>
+  <body>
+    <div class="filter-container">
+      <label for="category">Category:</label>
+      <select id="category" onchange="filterProducts()">
+        <option value="all">All</option>
+        <option value="electronics">Electronics</option>
+        <option value="clothing">Clothing</option>
+        <!-- Add more categories as needed -->
+      </select>
+
+      <label for="price">Price Range:</label>
+      <input type="number" id="minPrice" placeholder="Min" />
+      <input type="number" id="maxPrice" placeholder="Max" />
+      <button onclick="filterProducts()">Apply</button>
+
+      <!-- Replace the color and size dropdowns with checkboxes -->
+      <label for="color">Color:</label>
+      <input type="checkbox" id="red" value="red" onchange="filterProducts()" />
+      Red
+      <input
+        type="checkbox"
+        id="blue"
+        value="blue"
+        onchange="filterProducts()"
+      />
+      Blue
+      <!-- Add more color checkboxes as needed -->
+
+      <label for="size">Size:</label>
+      <input
+        type="checkbox"
+        id="small"
+        value="small"
+        onchange="filterProducts()"
+      />
+      Small
+      <input
+        type="checkbox"
+        id="medium"
+        value="medium"
+        onchange="filterProducts()"
+      />
+      Medium
+      <input
+        type="checkbox"
+        id="large"
+        value="large"
+        onchange="filterProducts()"
+      />
+      Large
+      <!-- Add more size checkboxes as needed -->
+    </div>
+
+    <div id="product-list">
+      <!-- Product items will be dynamically added here -->
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>

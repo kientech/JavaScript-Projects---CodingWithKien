@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+    <!-- <link rel="stylesheet" href="./reset.css" /> -->
+    <link rel="stylesheet" href="./style.css" />
+    <title>Soft-Deleted Products</title>
+
+    <style>
+      /* Add any specific styles for the Soft-Deleted Products page if needed */
+    </style>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="header__logo">
+        <a href="#"><img src="./images/logo.png" alt="" />Furniro</a>
+      </div>
+      <div class="header__navigation">
+        <ul class="navigation">
+          <li class="item"><a href="./addProducts.html">Create Product</a></li>
+          <li class="item">
+            <a href="./managementProducts.html">View Product</a>
+          </li>
+          <li class="item"><a href="./index.html">User Page</a></li>
+          <li class="item"><a href="">Recycle Bin</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <div class="recycle_title">
+      <h2 class="title_product">Reacycle Bin Products</h2>
+    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores officia suscipit ad natus accusamus vitae nam fugiat vel accusantium. A, at commodi! Consequatur architecto dolorem porro ullam in atque. Assumenda!</p>
+    </div>
+
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Product Name</th>
+          <th>Product Price</th>
+          <th>Product Image</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody id="softDeletedTableBody"></tbody>
+    </table>
+
+    <a href="./index.html">Home</a>
+    <script src="./managementProducts.js"></script>
+    <script>
+      function displaySoftDeletedProducts() {
+        // Retrieve soft-deleted products from localStorage
+        var storedProducts = JSON.parse(localStorage.getItem("products")) || [];
+        var tableBody = document.getElementById("softDeletedTableBody");
+
+        tableBody.innerHTML = "";
+
+        storedProducts.forEach(function (product, index) {
+          if (product.deleted) {
+            var row = document.createElement("tr");
+            var nameCell = row.insertCell(0);
+            var priceCell = row.insertCell(1);
+            var imageCell = row.insertCell(2);
+            var actionCell = row.insertCell(3);
+
+            nameCell.innerHTML = product.name;
+            priceCell.innerHTML = product.price;
+            imageCell.innerHTML = `<img src="${product.image}" alt="${product.name}" class="mana_image">`;
+
+            var restoreButton = document.createElement("button");
+            restoreButton.classList.add("btn-restore");
+            restoreButton.title = "Restore";
+            restoreButton.innerHTML = '<i class="uil uil-redo"></i>';
+            restoreButton.addEventListener("click", function () {
+              restoreProduct(index);
+            });
+
+            var deleteButton = document.createElement("button");
+            deleteButton.classList.add("btn-delete");
+            deleteButton.title = "Delete";
+            deleteButton.innerHTML = '<i class="uil uil-trash-alt"></i>';
+            deleteButton.addEventListener("click", function () {
+              deleteProduct(index, product.deleted);
+            });
+
+            actionCell.appendChild(deleteButton);
+            actionCell.appendChild(restoreButton);
+
+            tableBody.appendChild(row);
+          }
+        });
+      }
+
+      // Call the function when the page loads
+      window.onload = displaySoftDeletedProducts;
+    </script>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>CodingKienLab</title>
+</head>
+<body>
+    <div id="welcome-message"></div>
+    <button onclick="signOut()">Sign Out</button>
+
+    <script>
+        let currentUser = JSON.parse(sessionStorage.getItem('currentUser'));
+
+        if (currentUser){
+            document.getElementById('welcome-message').innerText = `Welcome, ${currentUser.firstName} ${currentUser.lastName}`;
+        }
+    </script>
+    <script src="./main.js"></script>
+</body>
+</html>

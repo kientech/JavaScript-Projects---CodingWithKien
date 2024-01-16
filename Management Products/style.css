@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif; 
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+button{
+  border: none;
+  outline: none;
+}
+.header {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  line-height: 80px;
+  /* background-color: red; */
+  border-bottom: 1px solid #eee;
+}
+
+.header__logo a {
+  display: flex;
+  align-items: center;
+  color: #000;
+  font-weight: 700;
+  font-size: 34px;
+}
+
+.header__logo a img {
+  margin-right: 5px;
+}
+
+.header__navigation .navigation {
+  display: flex;
+}
+
+.header__navigation .navigation li a {
+  padding: 0 20px;
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+  display: block;
+  transition: all 0.5s ease;
+}
+
+.header__navigation .navigation li a:hover {
+  background-color: #eee;
+  border-radius: 20px;
+}
+
+.add__products {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.add__product-content {
+  width: 40%;
+  margin: 0 40px;
+}
+
+.add__product--image {
+  width: 60%;
+  height: 100%;
+}
+
+.add__product--image img {
+  width: 100%;
+  height: 100%;
+}
+
+.add__product-content label {
+  display: block;
+  margin: 10px 0;
+  text-align: left;
+}
+
+.add__product-content input {
+  margin: 5px 0;
+  width: 100%;
+  display: block;
+  padding: 14px;
+  outline: none;
+  border-radius: 10px;
+  border: 1px solid #eee;
+}
+
+.add__product-content .title {
+  font-size: 32px;
+  font-weight: 700;
+  padding: 15px 0;
+}
+
+.add__product-content p {
+  line-height: 1.5;
+  color: #000;
+}
+
+.add__product-content form {
+  margin-top: 20px;
+}
+
+.add__product-content .input_item {
+  margin: 20px 0;
+}
+
+.add__product-content select {
+  padding: 15px;
+  border-radius: 10px;
+  margin: 10px 0;
+  background-color: #050d2d;
+  border: none;
+  color: #fff;
+  font-weight: 800;
+  outline: none;
+}
+
+.add_button {
+  padding: 24px;
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: #050d2d;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 24px;
+  transition: all 0.5s ease;
+  border: 1px solid #050d2d;
+  cursor: pointer;
+  margin: 20px auto;
+}
+
+.add_button:hover {
+  background-color: #fff;
+  color: #050d2d;
+}
+
+.add__product--image img {
+  border-radius: 10px 40px 10px 40px;
+}
+
+.is_active {
+  background-color: #eee;
+  border-radius: 20px;
+}
+
+/* Style for the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th,
+td {
+  text-align: center;
+  padding: 10px;
+  vertical-align: middle;
+  border: 1px solid #eee;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+/* Alternate row colors */
+tbody tr:nth-child(even) {
+  background-color: #f0f8ff; /* Light blue */
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #ffffff; /* White */
+}
+
+/* Hover effect on rows */
+tbody tr:hover {
+  background-color: #add8e6; /* Lighter blue on hover */
+}
+
+.btn-delete {
+  /* margin: 0 50px; */
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-size: 18px;
+  background-color: red;
+  color: #fff;
+}
+
+.btn-edit {
+  margin: 0 50px;
+  padding: 8px 16px;
+
+  border-radius: 5px;
+  font-size: 18px;
+  background-color: rgba(0, 0, 255, 0.669);
+  color: #fff;
+}
+
+.btn-restore {
+  margin: 0 50px;
+  padding: 8px 16px;
+
+  border-radius: 5px;
+  font-size: 18px;
+  background-color: rgb(200, 255, 0);
+  color: #000;
+}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+/* Form and table styles */
+form {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+/* Action buttons style */
+button {
+    padding: 8px;
+    cursor: pointer;
+}
+
+/* management products */
+.recycle_title{
+  width: 60%;
+  margin: 50px auto;
+}
+.title_product{
+  padding: 20px 0;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+}
+.recycle_title .description{
+  line-height: 1.5 ;
+  text-align: center;
+}
+
+.footer{
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.mana_image{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+.footer {
+  padding: 15px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #eee;
+}
+
+.footer-left .footer_navigation{
+  display: flex;
+}
+
+.footer-left .footer_navigation a{
+  padding: 0 20px;
+  color: #000;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.footer-right a{
+  color: #050d2d;
+  font-weight: 800; 
+}
+
+/* products */
+.user_products{
+  padding: 50px;
+}
+
+.user_products .user_title{
+  font-size: 32px;
+  font-weight: 800;
+  margin: 10px 0;
+}
+
+.user_products .user_description{
+  width: 50%;
+  line-height: 1.5;
+}
+#productList{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 50px 0;
+}
+
+#productList .product{
+  width: calc(33.333% - 20px);
+  margin: 0 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 30px;
+  border-radius: 10px;
+  margin-right: -10px;
+  margin-left: -10px;
+  cursor: pointer;
+  margin-bottom: 50px;
+}
+
+#productList .product img{
+  width: 350px;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+#productList .product h1{
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+#productList .product p{
+  text-align: right;
+  font-weight: 700;
+  font-size: 20px;
+  color: #031e8d;
+}

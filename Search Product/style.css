@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* main */
+.main{
+    margin: 50px;
+    padding: 20px;
+}
+
+.main .main_title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+/* search input */
+.main .search{
+    width: 40%;
+    margin: 26px auto;
+}
+
+.main .search label {
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+}
+
+.main .search input{
+    outline: none;
+    border: 1px solid #000;
+    padding: 8px;
+    width: 80%;
+    border-radius: 16px;
+}
+
+#productList {
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+#productList .product{
+    width: calc(25% - 20px);
+    margin: 20px 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+#productList .product img{
+    width: 100%;
+}
+
+#productList .product .productName{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 12px 0;
+}
+
+#productList .product p{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 12px 0;
+}
