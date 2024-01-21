@@ -1,0 +1,44 @@
+{
+  "courses": [
+    {
+      "image": "https://p92.hu/binaries/content/gallery/p92website/technologies/htmlcssjs-overview.png",
+      "title": "HTML CSS JS Advanced",
+      "author": "Duong Trung Kien",
+      "rating": 899,
+      "price": 899,
+      "bestSeller": true,
+      "buyAmount": 0,
+      "id": 1
+    },
+    {
+      "image": "https://p92.hu/binaries/content/gallery/p92website/technologies/htmlcssjs-overview.png",
+      "title": "HTML CSS JS Advanced",
+      "author": "Duong Trung Kien",
+      "rating": 899,
+      "price": 899,
+      "bestSeller": true,
+      "buyAmount": 0,
+      "id": 2
+    },
+    {
+      "image": "https://p92.hu/binaries/content/gallery/p92website/technologies/htmlcssjs-overview.png",
+      "title": "HTML CSS JS Advanced",
+      "author": "Duong Trung Kien",
+      "rating": 899,
+      "price": 899,
+      "bestSeller": true,
+      "buyAmount": 0,
+      "id": 3
+    },
+    {
+      "image": "https://p92.hu/binaries/content/gallery/p92website/technologies/htmlcssjs-overview.png",
+      "title": "HTML CSS JS Advanced",
+      "author": "Duong Trung Kien",
+      "rating": 899,
+      "price": 899,
+      "bestSeller": true,
+      "buyAmount": 0,
+      "id": 4
+    }
+  ]
+}

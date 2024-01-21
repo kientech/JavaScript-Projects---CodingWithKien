@@ -1,0 +1,34 @@
+#article-list {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#detail-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#admin-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#post-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#post-form label {
+  margin-bottom: 5px;
+}
+
+#post-form input,
+#post-form textarea {
+  margin-bottom: 10px;
+}
+
+#postButton.hidden {
+  display: none;
+}

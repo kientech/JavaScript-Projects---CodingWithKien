@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Quản lý sản phẩm</title>
+</head>
+<body>
+
+  <div id="app">
+    <h1>Quản lý sản phẩm</h1>
+    <ul id="productList"></ul>
+    <div id="trashBin">
+      <h2>Thùng rác</h2>
+      <!-- Nút Thực Hiện và các chức năng khác -->
+      <div>
+        <select id="actionSelect">
+          <option value="delete">Xoá Đã Chọn</option>
+          <option value="restore">Khôi Phục Đã Chọn</option>
+        </select>
+        <button id="performAction">Thực Hiện</button>
+      </div>
+      <button id="deleteAllTrash">Xoá Tất Cả</button>
+      <ul id="trashList"></ul>
+    </div>
+    <div id="productManagement">
+      <!-- Nút mở modal -->
+      <button id="openModal">Thêm Sản Phẩm</button>
+      <ul id="productManageList"></ul>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div id="productModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2 id="modalTitle">Thêm Sản Phẩm</h2>
+      <form id="productForm">
+        <label for="productName">Tên sản phẩm:</label>
+        <input type="text" id="productName" name="productName" required>
+        <button type="submit" id="submitProduct">Thêm / Cập Nhật</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="./main.js"></script>
+</body>
+</html>

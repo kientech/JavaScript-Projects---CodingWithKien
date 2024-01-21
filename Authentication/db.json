@@ -1,0 +1,12 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "kienduong_admin",
+      "firstName": "Kien Duong Trung",
+      "avatar": "https://cdn.dribbble.com/users/1404327/screenshots/4109974/media/e23639d43ace34378581a9b468d16732.jpg?resize=800x600&vertical=center",
+      "password": "admin*123",
+      "role": "admin"
+    }
+  ]
+}

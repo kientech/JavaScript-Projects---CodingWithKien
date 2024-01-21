@@ -1,0 +1,306 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h2 {
+  margin-bottom: 0 !important;
+}
+
+ul {
+  margin-bottom: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+button {
+  margin-top: 10px;
+}
+
+.wrap_login {
+  margin: 70px 0;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  /* align-items: center; */
+}
+
+.image_login {
+  width: 50%;
+}
+
+.image_login img {
+  width: 100%;
+}
+
+#loginForm label {
+  display: block;
+}
+
+.form_login {
+  padding: 48px;
+}
+
+.logo-image img {
+  margin-bottom: 48px;
+}
+
+.title_login {
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px; /* 140% */
+}
+
+.form_login {
+  width: 50%;
+}
+
+#loginForm {
+  margin-top: 20px;
+}
+
+.line {
+  margin: 10px 0;
+}
+
+#loginForm input {
+  margin-top: 5px;
+  padding: 12px;
+  width: 80%;
+  outline: none;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+}
+
+button {
+  margin-top: 35px;
+  width: 80%;
+  padding: 10px 0;
+  color: #fff;
+  font-size: 16px;
+  background-color: #007aff;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.form {
+  position: relative;
+}
+
+.form .toggle {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 25%;
+  cursor: pointer;
+}
+
+.signup_switch {
+  margin-top: 20px;
+}
+
+.signup_switch a {
+  text-decoration: none;
+  color: #007aff;
+  opacity: 0.7;
+  font-weight: 700;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.signup_switch a:hover {
+  opacity: 1;
+}
+
+.error {
+  color: red;
+}
+
+.signup_container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.signup_image {
+  width: 50%;
+  min-width: 100vh;
+}
+
+.signup_form {
+  padding: 40px 50px;
+  width: 50%;
+}
+
+.signup_image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0 20px 20px 0;
+}
+
+#registerForm {
+  margin-top: 40px;
+}
+
+#registerForm input {
+  display: block;
+  margin-top: 5px;
+  padding: 12px;
+  width: 80%;
+  outline: none;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  height: 36px;
+  padding: 32px 0;
+  background-color: #ccc;
+  line-height: 36px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header .navigation {
+  display: flex;
+  align-items: center;
+}
+
+.logoPage img {
+  display: block;
+}
+
+.navigation {
+  list-style: 36px;
+}
+
+.navigation li a {
+  color: #3b3c4a;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 0 20px;
+}
+
+.user a {
+  display: flex;
+  align-items: center;
+}
+
+.user #user_image {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 100rem;
+}
+
+#welcomeUser {
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+#buttonLogOut {
+  margin-top: 0;
+}
+
+.dropdown-menu.show {
+  width: 100%;
+}
+
+.thumbnail_profile {
+  width: 100%;
+}
+
+.banner_user{
+  position: relative;
+  height: 500px;
+}
+
+.avatar_user{
+  position: absolute;
+  top: 75%;
+  transform: translateY(-50%);
+  padding: 0 50px;
+}
+
+#avatarPreview{
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
+  border-radius: 100rem;
+  border: 5px solid #c7c7c7;
+}
+
+.banner_user #banner_background {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.avatar_user{
+  display: flex;
+  align-items: center;
+}
+
+.info_user_profile{
+  margin-top: 90px;
+  margin-left: 20px;
+}
+
+#name_profile{
+  font-weight: 700;
+}
+
+#email_profile{
+  font-size: 20px;
+}
+
+#editProfileForm{
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 200px;
+  display: block;
+  padding-bottom: 35px;
+
+}
+
+#editProfileForm input{
+  display: block ;
+  width: 100%;
+  padding: 12px;
+  outline: none;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+  margin: 5px 0;
+}
+
+#editProfileForm label{
+  display: block ;
+  margin-top: 10px;
+}
+
+.form_top{
+  display: flex;
+  justify-content: space-between;
+}

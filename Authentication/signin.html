@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+    <title>Sign In - MetaBlog</title>
+  </head>
+  <body>
+    <div class="wrap_login">
+      <div class="image_login">
+        <img src="./images/image_login.png" alt="">
+      </div>
+
+      <div class="form_login">
+        <div class="logo-image">
+          <img src="./images/Logo.png" alt="">
+        </div>
+        <h1 class="title_login">Nice to see you again</h1>
+        <form id="loginForm">
+          <label for="username">Username</label>
+          <input type="text" id="username" name="username"
+          placeholder="Enter username" required />
+          <div class="line"></div>
+          <label for="password">Password</label>
+          <div class="form">
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Enter password"
+              required
+            />
+            <i class="uil uil-eye toggle"></i>
+          </div>
+          <button type="button" onclick="login()">Sign in</button>
+          <p class="signup_switch">Dont have an account? <a href="./signup.html">Sign up now</a></p>
+        </form>
+      </div>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
