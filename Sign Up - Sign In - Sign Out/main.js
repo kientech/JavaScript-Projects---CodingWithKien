@@ -6,7 +6,7 @@ function signUp(event){
     let password = document.getElementById('password').value;
 
     let userData = JSON.parse(localStorage.getItem('userData')) || [];
-    let isExisting = userData.some((user => user.email == email));
+    let isExisting = userData.some(user => (user.email == email));
 
     if (!isExisting){
         userData.push({firstName, lastName, email, password});

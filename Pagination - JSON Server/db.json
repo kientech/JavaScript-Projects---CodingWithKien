@@ -1,0 +1,184 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Apple Airpods Pro MWP22A M/A Bluetooth 7.1",
+      "image": "https://demo-uminex.myshopify.com/cdn/shop/products/products_23_2.jpg?v=1672305892&width=533",
+      "price": "$428.00"
+    },
+    {
+      "id": 2,
+      "name": "Apple Bluetooth AirPods Max MGYH3",
+      "image": "https://demo-uminex.myshopify.com/cdn/shop/products/products_29_2.jpg?v=1672307703&width=533",
+      "price": "$45.00"
+    },
+    {
+      "id": 3,
+      "name": "Apple iPad Air 4 10.9-inch Wi-Fi 256GB",
+      "image": "https://demo-uminex.myshopify.com/cdn/shop/products/products_3_2.jpg?v=1670905816&width=533",
+      "price": "$49.00"
+    },
+    {
+      "id": 4,
+      "name": "Apple iPad Mini 6 Wi-Fi Cellular 64GB/128GB",
+      "image": "https://demo-uminex.myshopify.com/cdn/shop/products/products_4_2.jpg?v=1670906029&width=533",
+      "price": "$56.00"
+    },
+    {
+      "id": 5,
+      "name": "Apple iPad Pro M1 11-inch 2021 Wi-Fi 128GB",
+      "image": "https://demo-uminex.myshopify.com/cdn/shop/products/products_2_2.jpg?v=1670905748&width=533",
+      "price": "$54.00"
+    },
+    {
+      "id": 6,
+      "name": "Apple iPad Pro M1 12.9-inch 2021 Wi-Fi 64GB",
+      "image": "https://demo-uminex.myshopify.com/cdn/shop/products/products_1_2.jpg?v=1670904533&width=533",
+      "price": "$928.00"
+    },
+    {
+      "id": 7,
+      "name": "Apple iPhone 12 Pro Max 128GB - Unlocked",
+      "image": "https://demo-uminex.myshopify.com/cdn/shop/products/products_9_2.jpg?v=1670907530&width=533",
+      "price": "$120.00"
+    },
+    {
+      "id": 8,
+      "name": "Apple iPhone 13 Mini 128GB Pink–Unlocked",
+      "image": "https://demo-uminex.myshopify.com/cdn/shop/products/products_34_2.jpg?v=1678075516&width=533",
+      "price": "$100.00"
+    },
+    {
+      "id": 9,
+      "name": "Apple Watch Magnetic Fast Charger to USB-A",
+      "image": "https://demo-uminex.myshopify.com/cdn/shop/products/products_22_2.jpg?v=1672305755&width=533",
+      "price": "$69.00"
+    },
+    {
+      "id": 10,
+      "name": "Bluetooth Sony HBS-FN6 Noise Cancelling",
+      "image": "https://demo-uminex.myshopify.com/cdn/shop/products/products_24_2.jpg?v=1672305992&width=533",
+      "price": "$369.00"
+    },
+    {
+      "id": 11,
+      "name": "Bottle Grinder of Pepper",
+      "image": "https://demo-uminex.myshopify.com/cdn/shop/files/furniture_products_6_2.jpg?v=1682411388&width=533",
+      "price": "$69.00"
+    },
+    {
+      "id": 12,
+      "name": "Laptop Apple MacBook Pro M1 16GB/512GB",
+      "image": "https://cdn.shopify.com/s/files/1/0687/1177/6541/products/products_12_2.jpg?v=1672302207&width=533",
+      "price": "$230.00"
+    },
+    {
+      "id": 13,
+      "name": "Laptop Dell Vostro 3400 Intel Core i3 - 256GB",
+      "image": "https://cdn.shopify.com/s/files/1/0687/1177/6541/products/products_14_1.jpg?v=1672302856&width=533",
+      "price": "$848.00"
+    },
+    {
+      "id": 14,
+      "name": "Laptop MateBook 14 Ryzen Edition 256GB",
+      "image": "https://cdn.shopify.com/s/files/1/0687/1177/6541/products/products_15_1.jpg?v=1672302974&width=533",
+      "price": "$182.00"
+    },
+    {
+      "id": 15,
+      "name": "Laptop MateBook Pro 2021 Intel I7 - 256GB",
+      "image": "https://cdn.shopify.com/s/files/1/0687/1177/6541/products/products_16_1.jpg?v=1672303280&width=533",
+      "price": "$428.00"
+    },
+    {
+      "id": 16,
+      "name": "Laptop MateBook Pro 8GB 256GB - 2K Display",
+      "image": "https://cdn.shopify.com/s/files/1/0687/1177/6541/products/products_17_1.jpg?v=1672303396&width=533",
+      "price": "$928.00"
+    },
+    {
+      "id": 17,
+      "name": "MacBook Air M1 2020 16GB 256GB/8-Core GPU",
+      "image": "https://cdn.shopify.com/s/files/1/0687/1177/6541/products/products_18_1.jpg?v=1672303566&width=533",
+      "price": "$828.00"
+    },
+    {
+      "id": 18,
+      "name": "Samsung Galaxy S20 FE 8GB/256GB Blue",
+      "image": "https://cdn.shopify.com/s/files/1/0687/1177/6541/products/products_35_2.jpg?v=1678075833&width=533",
+      "price": "$399.00"
+    },
+    {
+      "id": 19,
+      "name": "Stainless Steel Case with Braided Solo Loop",
+      "image": "https://cdn.shopify.com/s/files/1/0687/1177/6541/products/products_33_2.jpg?v=1678075353&width=533",
+      "price": "$384.00"
+    },
+    {
+      "id": 20,
+      "name": "Wireless Controller Series Mac/Windows",
+      "image": "https://cdn.shopify.com/s/files/1/0687/1177/6541/products/products_28_2.jpg?v=1672307403&width=533",
+      "price": "$99.00"
+    },
+    {
+      "id": 21,
+      "name": "Laptop MateBook Pro 2021 Intel I7 - 256GB",
+      "image": "https://cdn.shopify.com/s/files/1/0687/1177/6541/products/products_16_1.jpg?v=1672303280&width=533",
+      "price": "$428.00"
+    },
+    {
+      "id": 22,
+      "name": "Laptop Dell Vostro 3400 Intel Core i3 - 256GB",
+      "image": "https://cdn.shopify.com/s/files/1/0687/1177/6541/products/products_14_1.jpg?v=1672302856&width=533",
+      "price": "$848.00"
+    },
+    {
+      "id": 23,
+      "name": "Apple Airpods Pro MWP22A M/A Bluetooth 7.1",
+      "image": "https://demo-uminex.myshopify.com/cdn/shop/products/products_23_2.jpg?v=1672305892&width=533",
+      "price": "$428.00"
+    },
+    {
+      "id": 24,
+      "name": "Apple iPad Air 4 10.9-inch Wi-Fi 256GB",
+      "image": "https://demo-uminex.myshopify.com/cdn/shop/products/products_3_2.jpg?v=1670905816&width=533",
+      "price": "$49.00"
+    },
+    {
+      "id": 25,
+      "name": "Stainless Steel Case with Braided Solo Loop",
+      "image": "https://cdn.shopify.com/s/files/1/0687/1177/6541/products/products_33_2.jpg?v=1678075353&width=533",
+      "price": "$384.00"
+    },
+    {
+      "id": 26,
+      "name": "MacBook Air M1 2020 16GB 256GB/8-Core GPU",
+      "image": "https://cdn.shopify.com/s/files/1/0687/1177/6541/products/products_18_1.jpg?v=1672303566&width=533",
+      "price": "$828.00"
+    },
+    {
+      "id": 27,
+      "name": "Laptop Dell Vostro 3400 Intel Core i3 - 256GB",
+      "image": "https://cdn.shopify.com/s/files/1/0687/1177/6541/products/products_14_1.jpg?v=1672302856&width=533",
+      "price": "$848.00"
+    },
+    {
+      "id": 28,
+      "name": "Apple iPad Mini 6 Wi-Fi Cellular 64GB/128GB",
+      "image": "https://demo-uminex.myshopify.com/cdn/shop/products/products_4_2.jpg?v=1670906029&width=533",
+      "price": "$56.00"
+    },
+    {
+      "id": 29,
+      "name": "Apple iPhone 13 Mini 128GB Pink–Unlocked",
+      "image": "https://demo-uminex.myshopify.com/cdn/shop/products/products_34_2.jpg?v=1678075516&width=533",
+      "price": "$100.00"
+    },
+    {
+      "id": 30,
+      "name": "Bottle Grinder of Pepper",
+      "image": "https://demo-uminex.myshopify.com/cdn/shop/files/furniture_products_6_2.jpg?v=1682411388&width=533",
+      "price": "$69.00"
+    }
+  ]
+}

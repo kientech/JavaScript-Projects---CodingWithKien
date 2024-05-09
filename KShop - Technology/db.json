@@ -1,0 +1,20 @@
+{
+  "products": [
+    {
+      "name": "iPhone 15 Pro Max",
+      "price": 40000000,
+      "image": "https://cdn.hoanghamobile.com/i/preview/Uploads/2023/09/13/iphone-15-pro-max-natural-titanium-pure-back-iphone-15-pro-max-natural-titanium-pure-front-2up-screen-usen.png",
+      "category": "iPhone",
+      "id": 1,
+      "isCart": false
+    },
+    {
+      "name": "iPhone 15 Pro ",
+      "price": 20850000,
+      "image": "https://cdn.phuckhangmobile.com/image/iphone-15-pro-mau-den-titanium-1-29700j.jpg",
+      "category": "iPhone",
+      "id": 2,
+      "isCart": false
+    }
+  ]
+}

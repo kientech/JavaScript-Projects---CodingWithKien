@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Admin | Kien Duong Trung</title>
+    <!-- tinymce for editor -->
+    <script src="https://cdn.tiny.cloud/1/kipc10e7w0fa5b7bozt9l0xwwmoukji25fh9wbyfnbzmuls5/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
+</head>
+<body>
+    <div id="admin-container">
+        <h2>Create New Post</h2>
+        <form action="" id="post-form">
+            <label for="title">Title</label>
+            <input type="text" id="title" name="title" required />
+
+            <label for="editor">Description</label>
+            <div id="editor"></div>
+
+            <label for="categories">Categories</label>
+            <input type="text" id="categories" name="categories" required />
+
+            <label for="author">Author</label>
+            <input type="text" id="author" name="author" required />
+            
+            <button type="submit">Create New Post</button>
+        </form>
+    </div>
+
+    <!-- admin.js -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="./admin.js"></script>
+</body>
+</html>

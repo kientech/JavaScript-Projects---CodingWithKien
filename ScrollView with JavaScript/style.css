@@ -1,0 +1,48 @@
+.home{
+    width: 100%;
+    height: 50vh;
+    background-color: aqua;
+}
+
+.about{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.about .left{
+    width: 40%;
+    height: 300px;
+    background-color: red;
+}
+
+.about .right{
+    width: 40%;
+    height: 300px;
+    background-color: blue;
+}
+
+.contact{
+    margin-top: 100px;
+}
+
+.contact_one{
+    width: 50%;
+    height: 500px;
+    background-color: burlywood;
+    margin: 200px auto;
+}
+
+.contact_two{
+    width: 50%;
+    height: 500px;
+    background-color: #f44336;
+    margin: 200px auto;
+}
+
+.contact_three{
+    width: 50%;
+    height: 500px;
+    background-color: #17bc80;
+    margin: 200px auto;
+}

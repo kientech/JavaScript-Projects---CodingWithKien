@@ -32,8 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var categories = $("#categories").val()
 
     var slug = createSlug(title);
-
-    // Sử dụng AJAX hoặc Fetch để đăng bài viết lên JSON Server
+    
     $.ajax({
       type: "POST",
       url: "http://localhost:3000/articles",

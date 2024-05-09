@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Management Table - KShop Technology</title>
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/admin.css" />
+    <link rel="stylesheet" href="../css/management.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <a href="#" class="logo"> KShop </a>
+      <div class="navigation">
+        <ul class="nav">
+          <li><a href="../html/admin.html">Add Product</a></li>
+          <li><a href="">Management Products</a></li>
+          <li><a href="../index.html">User Screen</a></li>
+          <li><a href="">More</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <div class="title">Products Management</div>
+
+    <button onclick="openAddProductModal()">New Product</button>
+    <!-- table -->
+    <table id="productTable">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Price</th>
+          <th>Image</th>
+          <th>Category</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody id="productList"></tbody>
+    </table>
+
+    <!-- modal editing product -->
+    <div id="productModal" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeAddProductModal()">&times;</span>
+        <h2 id="modalTitle">Add Product</h2>
+        <input type="hidden" id="productId" />
+        <label for="productName">Name</label>
+        <input type="text" id="productName" />
+        <label for="productPrice">Price</label>
+        <input type="text" id="productPrice" />
+        <label for="productImage">Image</label>
+        <input type="text" id="productImage" />
+        <label for="category">Category</label>
+        <input type="text" id="category" />
+
+        <button id="saveProductBtn" onclick="saveProduct()">Save</button>
+      </div>
+    </div>
+
+    <script src="../js/management.js"></script>
+  </body>
+</html>
